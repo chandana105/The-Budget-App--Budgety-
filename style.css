@@ -40,8 +40,10 @@ body {
 .top {
   height: 40vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url(back.png);
+    url(budget-calculator.jpg);
+    /* width :100%; */
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   position: relative;
 }
@@ -53,13 +55,14 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
+  font-weight: 700;
 }
 
 .budget__title {
   font-size: 18px;
   text-align: center;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-weight: 700;
 }
 
 .budget__value {
